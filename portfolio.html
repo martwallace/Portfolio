@@ -11,47 +11,80 @@
         body {
             background-image: url(dot-grid.png);
         }
+        .nag {font-family: 'Helvetica';
+       
+    }
+
+    .container {
+      background: #ffffff;
+       ;
+     
+    }
+        .parent {
+            display: flex;
+            margin: 20px;
+            
+        }
+        .child {
+            display: flex;
+            font-family: 'Helvetica';
+            margin: 8px;
+            background color: #ffffff;
+        }
+
+        h1 {margin-right: auto;
+            font-family: 'Georgia';
+
+            .search {
+        background-color: aliceblue;
+        margins: auto;
+        float: right;
+    }
+        }
     </style>
 
 </head>
 
+<div class="search">
 <ul>
-        <il><a href="index.html">About</a></il>
-        <il><a href="portfolio.html">Portfolio</a></il>
-        <il><a href="contact.html">Contact</a></il>
-</ul>
+        <il class="nag"><a href="index.html">About</a></il>
+        <il class="nag"><a href="portfolio.html">Portfolio</a></il>
+        <il class="nag"><a href="contact.html">Contact</a></il>
+       </ul>
+</div>
 
 <h1>Martha E. Wallace</h1>
-
-<h2>Portfolio</h2>
-<div>
-        <img src="assets/images/oilfield projects.jpg" alt="oilfield projects">
-        <h3> Oilfield Projects</h3>
-    </div>
-<div>
-        <img src="assets/images/Multimedia Projects.jpg" alt="Multimedia projects">
-        <h3> Multimedia Projects</h3>
-</div>
-
-<div>
-    <img src="assets/images/The Office Trivia.jpg" alt="the office">
-    <h3> The Office Trivia Game</h3>
-</div>
-
-<div>
-        <img src="assets/images/beers of the world.jpg" alt="beer of the world">
-        <h3> Beers of the World</h3>
-    </div>
-
-    <div>
-            <img src="assets/images/WhoSaidIt.jpeg" alt="who said it">
-            <h3> Who Said It</h3>
-        </div>
-
-
 <body>
+<h2>Portfolio</h2>
+<div class="container">
+<div class="parent">
+        <img src="assets/images/oilfield projects.jpg" alt="oilfield projects">
+        <div class="child">
+            <h3> Oilfield Projects</h3></div>
+    </div>
 
-    
+<div class="parent">
+        <img src="assets/images/Multimedia Projects.jpg" alt="Multimedia projects">
+        <div class="child"> <h3> Multimedia Projects</h3></div>
+</div>
+
+<div class="parent">
+    <img src="assets/images/The Office Trivia.jpg" alt="the office">
+    <div class="child"><h3> The Office Trivia Game</h3></div>
+</div>
+
+<div class="parent">
+        <img src="assets/images/beers of the world.jpg" alt="beer of the world">
+        <div class="child"><h3> Beers of the World</h3></div>
+    </div>
+
+    <div class="parent">
+            <img src="assets/images/WhoSaidIt.jpeg" alt="who said it"></div>
+            <div class="child"><h3> Who Said It</h3></div>
+    </div>
+</div>
+<footer></footer>
+
 </body>
 
 
